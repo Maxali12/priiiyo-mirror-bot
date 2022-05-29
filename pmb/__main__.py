@@ -59,7 +59,7 @@ def start(update: Update, context: CallbackContext):
     start_string = f'''
 This is a bot which can mirror all your links to Google drive!
 
-👲 Modded By: @Priiiyo
+👲 Modded By: @Blackmax_i
 
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
@@ -75,7 +75,7 @@ def chat_list(update: Update, context: CallbackContext):
 def repo(update: Update, context: CallbackContext):
     bot.send_message(update.message.chat_id,
     reply_to_message_id=update.message.message_id,
-    text="Repo: https://github.com/priiiyo/priiiyo-mirror-bot\nGroup: https://t.me/PriiiyoMirror", disable_web_page_preview=True)
+    text="Repo: https://t.me/MirrorCloudbd\nGroup: https://t.me/+ZCo7oJNNxMljZmVl", disable_web_page_preview=True)
 
 
 def restart(update, context):
