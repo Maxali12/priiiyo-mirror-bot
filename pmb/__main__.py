@@ -63,7 +63,7 @@ This is a bot which can mirror all your links to Google drive!
 
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
-    update.effective_message.reply_photo("https://telegra.ph/file/9f79dea91ab7cda63dc46.jpg", start_string, parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_photo("https://telegra.ph/file/2457280a3ef9bcd4bfe1f.jpg", start_string, parse_mode=ParseMode.MARKDOWN)
 
 
 def chat_list(update: Update, context: CallbackContext):
